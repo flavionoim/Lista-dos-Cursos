@@ -13,7 +13,7 @@ function cursos() {
 
     cursos.forEach(function (CURSO) {
         let li = document.createElement("li");
-        li.textContent = CURSO.curso; 
+        li.textContent = CURSO.curso + " ID: " + CURSO.id;
         ul.appendChild(li);
     });
 
